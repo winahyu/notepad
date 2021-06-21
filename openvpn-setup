@@ -1,0 +1,20 @@
+wget https://download-ib01.fedoraproject.org/pub/epel/7/x86_64/Packages/o/openvpn-2.4.10-1.el7.x86_64.rpm
+wget -4 https://download-ib01.fedoraproject.org/pub/epel/7/x86_64/Packages/o/openvpn-2.4.10-1.el7.x86_64.rpm
+sudo rpm -Uvh openvpn-2.4.10-1.el7.x86_64.rpm
+yum provides liblz4.so.1
+wget -4 https://download-ib01.fedoraproject.org/pub/epel/7/x86_64/Packages/p/pkcs11-helper-1.11-3.el7.x86_64.rpm
+rpm -Uvh pkcs11-helper-1.11-3.el7.x86_64.rpm
+sudo rpm -Uvh pkcs11-helper-1.11-3.el7.x86_64.rpm
+sudo rpm -Uvh openvpn-2.4.10-1.el7.x86_64.rpm
+wget -4 http://mirror.centos.org/centos/7/os/x86_64/Packages/lz4-devel-1.8.3-1.el7.x86_64.rpm
+sudo rpm -Uvh lz4-devel-1.8.3-1.el7.x86_64.rpm
+rm lz4-devel-1.8.3-1.el7.x86_64.rpm
+wget -4 http://mirror.centos.org/centos/7/os/x86_64/Packages/lz4-1.8.3-1.el7.x86_64.rpm
+
+##redhat 8
+
+curl -o pkcs.rpm https://download-ib01.fedoraproject.org/pub/epel/8/Everything/x86_64/Packages/p/pkcs11-helper-1.22-7.el8.x86_64.rpm
+curl -o openvpn.rpm https://download-ib01.fedoraproject.org/pub/epel/8/Everything/x86_64/Packages/o/openvpn-2.4.10-1.el8.x86_64.rpm
+
+sudo rpm -Uvh  https://download-ib01.fedoraproject.org/pub/epel/8/Everything/x86_64/Packages/p/pkcs11-helper-1.22-7.el8.x86_64.rpm
+sudo rpm -Uvh https://download-ib01.fedoraproject.org/pub/epel/8/Everything/x86_64/Packages/o/openvpn-2.4.10-1.el8.x86_64.rpm
